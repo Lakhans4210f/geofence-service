@@ -132,6 +132,12 @@ pip install -r requirements.txt
 git add README.md
 git commit -m "Add repository link to README"
 git push
+## Design Decisions (Summary)
+
+- Chose FastAPI for fast development and automatic interactive API docs.
+- Used in-memory storage for vehicle state to keep the solution simple and easy to understand.
+- Represented zones as circles with center + radius for easier distance checks without extra libraries.
+- Kept everything in a single file (`main.py`) to make reviewing the solution quicker, given the 2-hour constraint.
 
 
 
